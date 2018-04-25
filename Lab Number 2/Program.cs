@@ -20,8 +20,13 @@ namespace Lab_Number_2
 
             bool user = true;
 
+            
+
             Console.WriteLine("\n Welcome to Grand Circus' Room Detail Generator! \n ");
 
+            Console.WriteLine("can i have your name please? ");
+
+            string name = Console.ReadLine();
             while (user) // you can also say while (true) 
             {
                 Console.WriteLine("\n Enter the length \n ");
